@@ -1,1 +1,1 @@
-# SARS
+I am Solomon Oyenashie Ananyi, the founder of Solo Academic Research Sheriff (SARS). I am passionate about academic research and committed to advancing knowledge in various fields. My goal is to provide valuable insights and contribute to the academic community through thorough and innovative research projects.
