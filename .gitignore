@@ -1,33 +1,113 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Academic Research Sheriff</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .project {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: calc(33% - 40px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Solomon Oyenashie Ananyi</h1>
+        <p>Founder of Solo Academic Research Sheriff (SARS)</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="section">
+            <h2>Welcome</h2>
+            <p>Welcome to the official webpage of Solomon Oyenashie Ananyi, C.E.O. of Solo Academic Research Sheriff (SARS). Here, you can find information about my projects and how to get in touch with me.</p>
+        </section>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am Solomon Oyenashie Ananyi, the founder of Solo Academic Research Sheriff (SARS). I am passionate about academic research and committed to advancing knowledge in various fields. My goal is to provide valuable insights and contribute to the academic community through thorough and innovative research projects.</p>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Promoting Interdisciplinary Research Collaborations 1</h3>
+                    <p>This project is dedicated to fostering interdisciplinary research collaborations among academics and professionals from various fields. By creating platforms for knowledge exchange and joint projects, the initiative aims to break down silos and encourage innovative solutions to complex societal issues. Through workshops, seminars, and collaborative research endeavors, the project seeks to build a network of researchers who can leverage their diverse expertise to address pressing global challenges effectively. 1.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Title 2</h3>
+                    <p>Description of Project 2.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Title 3</h3>
+                    <p>Description of Project 3.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you’re looking for inquiries, collaboration opportunities, to discuss research ideas, or a dedicated researcher to join your team, feel free to contact our provided social media handles, send email at oyenashie@gmail.com , an email to <a href="mailto:solomon.ananyi@example.com">solomon.ananyi@example.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Solomon Oyenashie Ananyi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
